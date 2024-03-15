@@ -1,0 +1,51 @@
+.Fondo{
+    background-color: rgb(196, 155, 243);
+}
+
+.titulo{
+    text-align: center;
+    border-style: double;
+}
+
+/* Header and Nav */
+
+nav{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header img{
+    padding: 18px 10px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+}
+nav li a:hover{
+    color: white;
+    background-color: black;
+}
+
+.nombre{
+    text-align: left;
+    font-size: 30px;
+}
